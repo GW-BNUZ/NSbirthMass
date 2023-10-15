@@ -1,11 +1,10 @@
 import bilby
 import numpy as np
-import csv
 import pandas as pd
 import os
 import glob
 
-sub_dir_name_list=['turn_on_pow','turn_on_pow_fix','turn_on_pow_G','pow', '2G','turn_on_pow_G_fixed_max','G','2G_fixed_max', 'sst', 'G_fixed_max', '2G_fixed_min','2G_fixed_max_min','logu','3G_fixed_max_min','lognorm','gamma', 'U','G_fixed_max_min']
+sub_dir_name_list=['turn_on_pow','turn_on_pow_fix','turn_on_pow_G','pow', '2G','turn_on_pow_G_fixed_max','G','2G_fixed_max', 'sst', 'G_fixed_max', '2G_fixed_min','2G_fixed_max_min','logu','3G_fixed_max_min','lognorm','gamma', 'U']
 
 dir_path=os.path.abspath( os.path.join(os.getcwd()) )
 dir_name=os.path.basename(dir_path)
