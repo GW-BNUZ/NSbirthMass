@@ -1,0 +1,112 @@
+22:50 bilby INFO    : Running for label 'u_hype_68461', output will be saved to 'hy_outdir'
+22:50 bilby INFO    : Search parameters:
+22:50 bilby INFO    :   mu = Uniform(minimum=0.9, maximum=2.9, name='s_mu', latex_label='$\\mu$', unit=None, boundary=None)
+22:50 bilby INFO    :   sigma = Uniform(minimum=0.01, maximum=2, name='s_sigma', latex_label='$\\sigma$', unit=None, boundary=None)
+22:50 bilby INFO    : Single likelihood evaluation took 3.454e-03 s
+22:50 bilby INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 600, 'nlive': 400, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 20, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 240, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f88a53d61f0>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5}
+22:50 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+22:50 bilby INFO    : Using dynesty version 1.0.1
+22:50 bilby INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+22:50 bilby INFO    : Setting up multiproccesing pool with 20 processes.
+22:50 bilby INFO    : Generating initial points from the prior
+23:00 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+23:10 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+23:21 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+23:32 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+23:42 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+23:42 bilby INFO    : Writing 183 current samples to hy_outdir/u_hype_68461_samples.dat
+23:52 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+23:52 bilby INFO    : Writing 299 current samples to hy_outdir/u_hype_68461_samples.dat
+00:03 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+00:03 bilby INFO    : Writing 490 current samples to hy_outdir/u_hype_68461_samples.dat
+00:13 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+00:13 bilby INFO    : Writing 788 current samples to hy_outdir/u_hype_68461_samples.dat
+00:24 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+00:24 bilby INFO    : Writing 1074 current samples to hy_outdir/u_hype_68461_samples.dat
+00:34 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+00:34 bilby INFO    : Writing 1074 current samples to hy_outdir/u_hype_68461_samples.dat
+00:45 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+00:45 bilby INFO    : Writing 1043 current samples to hy_outdir/u_hype_68461_samples.dat
+00:49 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68461_resume.pickle
+00:49 bilby INFO    : Writing 1051 current samples to hy_outdir/u_hype_68461_samples.dat
+00:49 bilby INFO    : Starting to close worker pool.
+00:49 bilby INFO    : Finished closing worker pool.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+00:49 bilby INFO    : Sampling time: 1:59:04.551427
+00:49 bilby INFO    : Summary of results:
+nsamples: 4111
+ln_noise_evidence:  0.000
+ln_evidence: 46.677 +/-  0.172
+ln_bayes_factor: 46.677 +/-  0.172
+
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/bilby/core/result.py:1170: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(matplotlib.__version__) < "2.1":
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)

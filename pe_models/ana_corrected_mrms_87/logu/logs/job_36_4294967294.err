@@ -1,0 +1,325 @@
+12:19 bilby INFO    : Running for label 'u_hype_52397', output will be saved to 'hy_outdir'
+12:19 bilby INFO    : Search parameters:
+12:19 bilby INFO    :   mlo = Uniform(minimum=0.9, maximum=1.5, name='mlo', latex_label='$\\rm{m^l}$', unit=None, boundary=None)
+12:19 bilby INFO    :   mup = Uniform(minimum=1.5, maximum=2.9, name='mup', latex_label='$\\rm{m^u}$', unit=None, boundary=None)
+12:19 bilby INFO    : Single likelihood evaluation took 7.014e-03 s
+12:19 bilby INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 600, 'nlive': 400, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 5, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 240, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f0434385220>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5}
+12:19 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+12:19 bilby INFO    : Using dynesty version 1.0.1
+12:19 bilby INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+12:19 bilby INFO    : Setting up multiproccesing pool with 5 processes.
+12:19 bilby INFO    : Generating initial points from the prior
+12:30 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+12:41 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+12:51 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+13:02 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+13:13 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+13:24 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+13:24 bilby INFO    : Writing 109 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+13:34 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+13:34 bilby INFO    : Writing 122 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+13:45 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+13:45 bilby INFO    : Writing 139 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+13:56 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+13:56 bilby INFO    : Writing 141 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+14:07 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+14:07 bilby INFO    : Writing 171 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+14:17 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+14:17 bilby INFO    : Writing 181 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+14:28 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+14:28 bilby INFO    : Writing 230 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+14:38 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+14:38 bilby INFO    : Writing 275 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+14:49 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+14:49 bilby INFO    : Writing 304 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+15:00 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+15:00 bilby INFO    : Writing 348 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+15:11 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+15:11 bilby INFO    : Writing 396 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+15:22 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+15:22 bilby INFO    : Writing 436 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+15:32 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+15:32 bilby INFO    : Writing 463 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+15:43 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+15:43 bilby INFO    : Writing 546 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+15:53 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+15:53 bilby INFO    : Writing 638 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+16:05 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+16:05 bilby INFO    : Writing 722 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+16:15 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+16:15 bilby INFO    : Writing 814 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+16:26 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+16:26 bilby INFO    : Writing 917 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+16:36 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+16:36 bilby INFO    : Writing 1056 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+16:47 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+16:47 bilby INFO    : Writing 1040 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+16:58 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+16:58 bilby INFO    : Writing 1074 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+17:08 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+17:08 bilby INFO    : Writing 1088 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+17:18 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+17:18 bilby INFO    : Writing 1038 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+17:29 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+17:29 bilby INFO    : Writing 1072 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+17:40 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+17:40 bilby INFO    : Writing 1041 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+17:50 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+17:50 bilby INFO    : Writing 1057 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:01 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+18:01 bilby INFO    : Writing 1026 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:12 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+18:12 bilby INFO    : Writing 1068 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:23 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+18:23 bilby INFO    : Writing 1074 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:34 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+18:34 bilby INFO    : Writing 1069 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:35 bilby INFO    : Written checkpoint file hy_outdir/u_hype_52397_resume.pickle
+18:35 bilby INFO    : Writing 1077 current samples to hy_outdir/u_hype_52397_samples.dat
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:35 bilby INFO    : Starting to close worker pool.
+18:35 bilby INFO    : Finished closing worker pool.
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/dynesty/utils.py:171: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  idx = np.zeros(nsamples, dtype=np.int)
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+18:35 bilby INFO    : Sampling time: 6:15:16.108286
+18:35 bilby INFO    : Summary of results:
+nsamples: 2986
+ln_noise_evidence:  0.000
+ln_evidence: 52.339 +/-  0.124
+ln_bayes_factor: 52.339 +/-  0.124
+
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/bilby/core/result.py:1032: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(matplotlib.__version__) < "2.1":
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
