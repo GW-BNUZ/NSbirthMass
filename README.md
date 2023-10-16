@@ -2,13 +2,13 @@
 NSbirthMass is a Python source code containing tools for 1. computing the neutron star birth mass distribution under various accretion modes. 2. performing rapid parameter estimation and model selection for different neutron star mass models.
 
 # Overview
-NSbirthMass is designed to offer a wider range of neutron star mass distribution models, faster parameter estimation and model selection. It includes commonly used Gaussian series models, and utilizes the Nested sampling method for parameter estimation. This source code aims to provide a user-friendly and efficient way to conduct calculations. NSbirthMass can be directly downloaded from GitHub and is compatible with the GNU/Linux operating system.
+NSbirthMass is designed to offer a wider range of neutron star mass distribution models, faster parameter estimation and model selection. It includes commonly used Gaussian series models and utilizes the Nested sampling method for parameter estimation. This source code aims to provide a user-friendly and efficient way to conduct calculations. NSbirthMass can be directly downloaded from GitHub and is compatible with the GNU/Linux operating system.
 
 # System Requirements
 
 ## Hardware requirements
 
-NSbirthMass source code requires only a standard computer with enough RAM and cores to support parallel computing.
+NSbirthMass source code requires only a standard computer with enough RAM and CPU cores to support parallel computing.
 
 ## Software requirements
 
