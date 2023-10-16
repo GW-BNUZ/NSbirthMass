@@ -39,7 +39,7 @@ This package is supported for Linux. The source code has been tested on the foll
 
 ## To set up Slurm for parallel parameters estimation：
 ### 1. Install Slurm.
-### 2. Configure Python Environment: In the "slurm.sh" files, set up your Python environment.
+### 2. Configure Python Environment: Set up your Python environment in "slurm.sh" files.
 #### For example: cd NSbirthMass/pe_models/ns_obs/2G/ folder; find the slurm.sh file; modify the last line command in the "slurm.sh" file, which is "python hyper.py," to use your specific Python environment, such as "/home/xxx/miniconda/envs/xxx/bin/python hyper.py".
 ### 3. Generate Neutron Star mass data. 
 #### Use the NS mass generation code located in the "NSbirthMass/demos/" directory to obtain neutron star mass data under different accretion modes.
