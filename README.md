@@ -38,12 +38,16 @@ This package is supported for Linux. The source code has been tested on the foll
 # Setting up the development environment:
 
 ## To set up Slurm for parallel parameters estimation：
-### 1.Install Slurm.
-### 2.Switch Python environment to your own in slurm.sh files. 
-#### For example: cd NSbirthMass/pe_models/ns_obs/2G/ modefiy the last line command in slurm.sh,"python hyper.py", to you own Python environment, "/home/xxx/miniconda/envs/xxx/bin/python hyper.py"
+### 1. Install Slurm.
+### 2. Configure Python Environment: In the "slurm.sh" files, set up your Python environment.
+#### For example: cd NSbirthMass/pe_models/ns_obs/2G/ folder; find the slurm.sh file; modify the last line command in the "slurm.sh" file, which is "python hyper.py," to use your specific Python environment, such as "/home/xxx/miniconda/envs/xxx/bin/python hyper.py".
+### 3. Generate Neutron Star mass data. 
+#### Use the NS mass generation code located in the "NSbirthMass/demos/" directory to obtain neutron star mass data under different accretion modes.
+### 4. Copy NS mass data in "NSbirthMass/demos/" to the parameters estimation folder, "NSbirthMass\pe_models".
 
-## To run parallel parameters estimation based on task management system:
-### cd /NSbirthMass/pemodel/xxx/xxx ; sbatch slurm.sh, or cd /NSbirthMass/pemodel/xxx; bash sbatch 
+## To run parallel parameters estimation based on task management system using NS mass data obtained above:
+### cd /NSbirthMass/pemodel/xxx/yyy ; sbatch slurm.sh, or cd /NSbirthMass/pe_models/xxx; bash sbatch 
+#### where the "xxx" folder represents the accretion mode for NS mass data, such as analytical approach (obs), and "yyy" indicates the mass model, like Gaussian distribution(G).
 
 ### Note
 #### We employed the Slurm task management system. In this calculation, we used single-node parallel processing. When performing parallel calculations, ensure that the "logs/" directory is created before submitting the "slurm.sh" file. The "ntasks-per-node" specifies the number of threads per node for parallel computation. Please note that "npool" should match the "ntasks-per-node" value specified in the "slurm.sh" file. Before submitting a parallel task, make sure to switch the Python environment in "slurm.sh" file, the last line of command, which can be determined using the "which python" command.
@@ -51,3 +55,6 @@ This package is supported for Linux. The source code has been tested on the foll
 ## To run notebooks
 ### cd demos
 ### run jupyter notebook, xxx.ipynb
+
+# License
+This project is covered under the Apache 2.0 License.
