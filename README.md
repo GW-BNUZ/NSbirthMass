@@ -46,7 +46,7 @@ This package is supported for Linux. The source code has been tested on the foll
 ### 4. Copy NS mass data in "NSbirthMass/demos/" to the parameters estimation folder, "NSbirthMass/pe_models".
 
 ## To run parallel parameters estimation based on task management system using NS mass data obtained above:
-### cd /NSbirthMass/pemodel/xxx/yyy ; sbatch slurm.sh, or cd /NSbirthMass/pe_models/xxx; bash sbatch 
+### cd /NSbirthMass/pe_models/xxx/yyy ; sbatch slurm.sh, or cd /NSbirthMass/pe_models/xxx; bash sbatch 
 #### where the "xxx" folder represents the accretion mode for NS mass data, such as analytical approach (obs), and "yyy" indicates the mass model, like Gaussian distribution(G).
 
 ### Note
