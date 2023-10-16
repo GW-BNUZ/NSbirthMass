@@ -17,22 +17,22 @@ This package is supported for Linux. The source code has been tested on the foll
 #### Linux: Ubuntu 20.04
 
 ### Python Dependencies
-#### python 3.18.16
-#### Slurm
-#### bilby==1.1.1
-#### dynesty==1.0.1
-#### numpy=1.19.5
-#### astropy==5.0
-#### pandas==1.4.4
-#### GalDynPsr
-#### galpy==1.8.2
-#### scipy==1.10.1
-#### matplotlib==3.6.3
-#### random
-#### corner==2.2.1
-#### openpyxl==3.1.2
-#### math
-#### SciencePlots
+##### python 3.18.16
+##### Slurm
+##### bilby==1.1.1
+##### dynesty==1.0.1
+##### numpy=1.19.5
+##### astropy==5.0
+##### pandas==1.4.4
+##### GalDynPsr
+##### galpy==1.8.2
+##### scipy==1.10.1
+##### matplotlib==3.6.3
+##### random
+##### corner==2.2.1
+##### openpyxl==3.1.2
+##### math
+##### SciencePlots
 
 
 # Setting up the development environment:
