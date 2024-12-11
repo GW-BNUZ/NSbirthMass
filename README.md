@@ -12,7 +12,7 @@ NSbirthMass is designed to provide a diverse range of neutron star mass distribu
 
 ### Folder Contents
 - **`demos`**: Contains partial source data and Python code for generating main datasets and figures.
-- **`figures`**: Includes figures and source data from the publication ([DOI](https://doi.org/10.48550/arXiv.2412.05524)DOI: 10.48550/arXiv.2412.05524).
+- **`figures`**: Includes figures and source data from the publication ([DOI](https://doi.org/10.48550/arXiv.2412.05524):10.48550/arXiv.2412.05524).
 - **`NSmassData`**: Provides neutron star mass data, flux values, AP4 equations of state, and posterior data for models.
 - **`pe_models`**: Contains hyperparameter estimation code for 2G, TOP, and other models using observed, analytical, and phenomenological neutron-star mass data.
 
