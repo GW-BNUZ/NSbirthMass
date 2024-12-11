@@ -1,15 +1,23 @@
-python 3.18.16
-pip install bilby==1.1.1
-pip install dynesty==1.0.1
-pip install numpy=1.19.5
-pip install astropy==5.0
-pip install pandas==1.4.4
-pip install GalDynPsr
-pip install galpy==1.8.2
-pip install scipy==1.10.1
-pip install matplotlib==3.6.3
-pip install random
-pip install corner==2.2.1
-pip install openpyxl==3.1.2
-pip install math
-pip install SciencePlots
+Python 3.8.16
+astropy==5.2.2
+bilby==1.1.1
+contourpy==1.1.1
+corner==2.2.1
+cycler==0.12.1
+dynesty==1.0.1
+emcee==3.1.4
+GalDynPsr==1.0.0
+galpy==1.8.2
+h5py==3.10.0
+ipykernel==6.25.2
+ipython==8.11.0
+ipywidgets==8.1.1
+jupyter_client==8.4.0
+jupyter_core==5.4.0
+jupyterlab-widgets==3.0.9
+matplotlib==3.7.3
+numpy==1.20.0
+openpyxl==3.1.2
+pandas==1.4.4
+SciencePlots==2.1.0
+scipy==1.10.1
