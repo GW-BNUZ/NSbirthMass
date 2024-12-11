@@ -1,0 +1,26 @@
+/home/yzq/miniconda3/envs/igwn-py310/lib/python3.10/site-packages/pandas/core/computation/expressions.py:21: UserWarning: Pandas requires version '2.8.0' or newer of 'numexpr' (version '2.7.3' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+16:43 bilby INFO    : Running for label 'u_hype_68387', output will be saved to 'hy_outdir'
+16:43 bilby INFO    : Analysis priors:
+16:43 bilby INFO    : s_mu=Uniform(minimum=0.01, maximum=1, name='s_mu', latex_label='$\\mu$', unit=None, boundary=None)
+16:43 bilby INFO    : s_sigma=Uniform(minimum=0.01, maximum=0.5, name='s_sigma', latex_label='$\\sigma$', unit=None, boundary=None)
+16:43 bilby INFO    : Analysis likelihood class: <class 'bilby.hyper.likelihood.HyperparameterLikelihood'>
+16:43 bilby INFO    : Analysis likelihood noise evidence: 0
+16:43 bilby INFO    : Single likelihood evaluation took 1.911e-03 s
+16:43 bilby INFO    : Using sampler Dynesty with kwargs {'nlive': 400, 'bound': 'live', 'sample': 'act-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': None, 'queue_size': 20, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.1, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f9a6634d660>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False}
+16:43 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+16:43 bilby INFO    : Using dynesty version 2.1.2
+16:43 bilby INFO    : Using the bilby-implemented rwalk sampling tracking the autocorrelation function and thinning by 2 with maximum length 10000
+16:43 bilby INFO    : Setting up multiproccesing pool with 20 processes
+16:43 bilby INFO    : Generating initial points from the prior
+16:45 bilby INFO    : Written checkpoint file hy_outdir/u_hype_68387_resume.pickle
+16:45 bilby INFO    : Starting to close worker pool.
+16:45 bilby INFO    : Finished closing worker pool.
+16:45 bilby INFO    : Rejection sampling nested samples to obtain 1106 posterior samples
+16:45 bilby INFO    : Sampling time: 0:01:21.728458
+16:45 bilby INFO    : Summary of results:
+nsamples: 1106
+ln_noise_evidence:  0.000
+ln_evidence: 34.320 +/-  0.140
+ln_bayes_factor: 34.320 +/-  0.140
+

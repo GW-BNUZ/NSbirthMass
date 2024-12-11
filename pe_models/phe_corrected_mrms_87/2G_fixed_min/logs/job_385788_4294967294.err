@@ -1,0 +1,71 @@
+22:29 bilby INFO    : Running for label 'u_hype_60386', output will be saved to 'hy_outdir'
+22:29 bilby INFO    : Search parameters:
+22:29 bilby INFO    :   mu1 = Uniform(minimum=0.9, maximum=2.9, name='mu1', latex_label='$\\mu_1$', unit=None, boundary=None)
+22:29 bilby INFO    :   sigma1 = Uniform(minimum=0.01, maximum=2, name='sigma1', latex_label='$\\sigma_1$', unit=None, boundary=None)
+22:29 bilby INFO    :   mu2 = Uniform(minimum=0.9, maximum=2.9, name='mu2', latex_label='$\\mu_2$', unit=None, boundary=None)
+22:29 bilby INFO    :   sigma2 = Uniform(minimum=0.01, maximum=2, name='sigma2', latex_label='$\\sigma_2$', unit=None, boundary=None)
+22:29 bilby INFO    :   alpha = Uniform(minimum=0.01, maximum=1, name='alpha', latex_label='$\\alpha$', unit=None, boundary=None)
+22:29 bilby INFO    :   mup = Uniform(minimum=1.5, maximum=2.9, name='mup', latex_label='$\\rm{m^u}$', unit=None, boundary=None)
+22:29 bilby INFO    : Single likelihood evaluation took 1.397e-02 s
+22:29 bilby INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 600, 'nlive': 400, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 4, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 240, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f3564811048>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5}
+22:29 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+22:29 bilby INFO    : Using dynesty version 1.1
+22:29 bilby INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+22:29 bilby INFO    : Setting up multiproccesing pool with 4 processes.
+22:29 bilby INFO    : Generating initial points from the prior
+22:39 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+22:49 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+23:00 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+23:10 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+23:20 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+23:30 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+23:40 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+23:50 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+00:00 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+00:10 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+00:20 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+00:31 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+00:41 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+00:51 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+01:01 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+01:11 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+01:22 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+01:32 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+01:42 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+01:52 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:03 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:13 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:23 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:33 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:33 bilby INFO    : Writing 101 current samples to hy_outdir/u_hype_60386_samples.dat
+02:43 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:43 bilby INFO    : Writing 127 current samples to hy_outdir/u_hype_60386_samples.dat
+02:54 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+02:54 bilby INFO    : Writing 145 current samples to hy_outdir/u_hype_60386_samples.dat
+03:04 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+03:04 bilby INFO    : Writing 173 current samples to hy_outdir/u_hype_60386_samples.dat
+03:14 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+03:14 bilby INFO    : Writing 261 current samples to hy_outdir/u_hype_60386_samples.dat
+03:24 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+03:24 bilby INFO    : Writing 378 current samples to hy_outdir/u_hype_60386_samples.dat
+03:34 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+03:34 bilby INFO    : Writing 484 current samples to hy_outdir/u_hype_60386_samples.dat
+03:44 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+03:44 bilby INFO    : Writing 776 current samples to hy_outdir/u_hype_60386_samples.dat
+03:55 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+03:55 bilby INFO    : Writing 1198 current samples to hy_outdir/u_hype_60386_samples.dat
+04:05 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+04:05 bilby INFO    : Writing 1710 current samples to hy_outdir/u_hype_60386_samples.dat
+04:15 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+04:15 bilby INFO    : Writing 1950 current samples to hy_outdir/u_hype_60386_samples.dat
+04:23 bilby INFO    : Written checkpoint file hy_outdir/u_hype_60386_resume.pickle
+04:23 bilby INFO    : Writing 1902 current samples to hy_outdir/u_hype_60386_samples.dat
+04:23 bilby INFO    : Starting to close worker pool.
+04:23 bilby INFO    : Finished closing worker pool.
+04:23 bilby INFO    : Sampling time: 5:53:42.436912
+04:23 bilby INFO    : Summary of results:
+nsamples: 6429
+ln_noise_evidence:  0.000
+ln_evidence: 58.922 +/-  0.226
+ln_bayes_factor: 58.922 +/-  0.226
+

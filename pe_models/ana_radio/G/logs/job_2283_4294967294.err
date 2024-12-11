@@ -1,0 +1,54 @@
+22:50 bilby INFO    : Running for label 'u_hype_51501', output will be saved to 'hy_outdir'
+22:50 bilby INFO    : Search parameters:
+22:50 bilby INFO    :   mu = Uniform(minimum=0.9, maximum=2.9, name='s_mu', latex_label='$\\mu$', unit=None, boundary=None)
+22:50 bilby INFO    :   sigma = Uniform(minimum=0.01, maximum=2, name='s_sigma', latex_label='$\\sigma$', unit=None, boundary=None)
+22:50 bilby INFO    :   mlo = Uniform(minimum=0.9, maximum=1.5, name='mlow', latex_label='$mlow$', unit=None, boundary=None)
+22:50 bilby INFO    :   mup = Uniform(minimum=1.5, maximum=2.9, name='mup', latex_label='$mup$', unit=None, boundary=None)
+22:50 bilby INFO    : Single likelihood evaluation took 3.442e-03 s
+22:50 bilby INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 600, 'nlive': 400, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 20, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 240, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f005b4b61f0>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5}
+22:50 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+22:50 bilby INFO    : Using dynesty version 1.0.1
+22:50 bilby INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+22:50 bilby INFO    : Setting up multiproccesing pool with 20 processes.
+22:50 bilby INFO    : Generating initial points from the prior
+23:00 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+23:11 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+23:21 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+23:32 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+23:42 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+23:52 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:03 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:14 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:24 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:24 bilby INFO    : Writing 129 current samples to hy_outdir/u_hype_51501_samples.dat
+00:35 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:35 bilby INFO    : Writing 245 current samples to hy_outdir/u_hype_51501_samples.dat
+00:45 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:45 bilby INFO    : Writing 422 current samples to hy_outdir/u_hype_51501_samples.dat
+00:56 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+00:56 bilby INFO    : Writing 766 current samples to hy_outdir/u_hype_51501_samples.dat
+01:07 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+01:07 bilby INFO    : Writing 1429 current samples to hy_outdir/u_hype_51501_samples.dat
+01:18 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+01:18 bilby INFO    : Writing 1477 current samples to hy_outdir/u_hype_51501_samples.dat
+01:27 bilby INFO    : Written checkpoint file hy_outdir/u_hype_51501_resume.pickle
+01:27 bilby INFO    : Writing 1483 current samples to hy_outdir/u_hype_51501_samples.dat
+01:28 bilby INFO    : Starting to close worker pool.
+01:28 bilby INFO    : Finished closing worker pool.
+01:28 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+01:28 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+01:28 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+01:28 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+01:28 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+01:28 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+01:28 bilby INFO    : Sampling time: 2:36:46.245519
+01:28 bilby INFO    : Summary of results:
+nsamples: 4831
+ln_noise_evidence:  0.000
+ln_evidence: 53.776 +/-  0.189
+ln_bayes_factor: 53.776 +/-  0.189
+
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/bilby/core/result.py:1170: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(matplotlib.__version__) < "2.1":
+/home/yzq/miniconda3/envs/bilby/lib/python3.8/site-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)

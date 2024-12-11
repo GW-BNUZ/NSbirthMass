@@ -1,0 +1,34 @@
+22:17 bilby INFO    : Running for label 'u_hype_66710', output will be saved to 'hy_outdir'
+22:17 bilby INFO    : Search parameters:
+22:17 bilby INFO    :   mlo = Uniform(minimum=0.9, maximum=1.5, name='mlo', latex_label='$\\rm{m^l}$', unit=None, boundary=None)
+22:17 bilby INFO    :   mup = Uniform(minimum=1.5, maximum=2.9, name='mup', latex_label='$\\rm{m^u}$', unit=None, boundary=None)
+22:17 bilby INFO    : Single likelihood evaluation took 3.327e-03 s
+22:17 bilby INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 600, 'nlive': 400, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 4, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 240, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f2f0b2110f0>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5}
+22:17 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+22:17 bilby INFO    : Using dynesty version 1.1
+22:17 bilby INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+22:17 bilby INFO    : Setting up multiproccesing pool with 4 processes.
+22:17 bilby INFO    : Generating initial points from the prior
+22:27 bilby INFO    : Written checkpoint file hy_outdir/u_hype_66710_resume.pickle
+22:37 bilby INFO    : Written checkpoint file hy_outdir/u_hype_66710_resume.pickle
+22:37 bilby INFO    : Writing 133 current samples to hy_outdir/u_hype_66710_samples.dat
+22:47 bilby INFO    : Written checkpoint file hy_outdir/u_hype_66710_resume.pickle
+22:47 bilby INFO    : Writing 366 current samples to hy_outdir/u_hype_66710_samples.dat
+22:57 bilby INFO    : Written checkpoint file hy_outdir/u_hype_66710_resume.pickle
+22:57 bilby INFO    : Writing 868 current samples to hy_outdir/u_hype_66710_samples.dat
+23:07 bilby INFO    : Written checkpoint file hy_outdir/u_hype_66710_resume.pickle
+23:07 bilby INFO    : Writing 1210 current samples to hy_outdir/u_hype_66710_samples.dat
+23:14 bilby INFO    : Written checkpoint file hy_outdir/u_hype_66710_resume.pickle
+23:14 bilby INFO    : Writing 1203 current samples to hy_outdir/u_hype_66710_samples.dat
+23:14 bilby INFO    : Starting to close worker pool.
+23:14 bilby INFO    : Finished closing worker pool.
+23:14 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+23:14 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+23:14 bilby WARNING : Multiple likelihood matches found between sorted and unsorted samples. Taking the first match.
+23:14 bilby INFO    : Sampling time: 0:56:58.734015
+23:14 bilby INFO    : Summary of results:
+nsamples: 3243
+ln_noise_evidence:  0.000
+ln_evidence: 50.993 +/-  0.135
+ln_bayes_factor: 50.993 +/-  0.135
+
