@@ -1,60 +1,96 @@
 # NSbirthMass
-NSbirthMass is a Python source code containing tools for 1. computing the neutron star birth mass distribution under various accretion modes. 2. performing rapid parameter estimation and model selection for different neutron star mass models.
 
-# Overview
-NSbirthMass is designed to offer a wider range of neutron star mass distribution models, faster parameter estimation and model selection. It includes commonly used Gaussian series models and utilizes the Nested sampling method for parameter estimation. This source code aims to provide a user-friendly and efficient way to conduct calculations. NSbirthMass can be directly downloaded from GitHub and is compatible with the GNU/Linux operating system.
+**NSbirthMass** is a Python-based toolkit providing source data and tools for:
+1. Computing neutron star birth mass distributions under various accretion modes.
+2. Performing rapid parameter estimation and model selection for neutron star mass models.
 
-# System Requirements
+---
 
-## Hardware requirements
+## Overview
 
-NSbirthMass source code requires only a standard computer with enough RAM and CPU cores to support parallel computing.
+NSbirthMass is designed to provide a diverse range of neutron star mass distribution models and efficient parameter estimation. It includes Gaussian series models and leverages the Nested Sampling method for parameter estimation. This toolkit is user-friendly, efficient, and compatible with the GNU/Linux operating system.
 
-## Software requirements
+### Folder Contents
+- **`demos`**: Contains partial source data and Python code for generating main datasets and figures.
+- **`figures`**: Includes figures and source data from the publication ([DOI](https://doi.org/10.48550/arXiv.2412.05524)).
+- **`NSmassData`**: Provides neutron star mass data, flux values, AP4 equations of state, and posterior data for models.
+- **`pe_models`**: Contains hyperparameter estimation code for 2G, TOP, and other models using observed, analytical, and phenomenological neutron-star mass data.
 
-### OS Requirements
-This package is supported for Linux. The source code has been tested on the following systems
-#### Linux: Ubuntu 20.04
+---
 
-### Python Dependencies
-##### python 3.18.16
-##### Slurm
-##### bilby==1.1.1
-##### dynesty==1.0.1
-##### numpy=1.19.5
-##### astropy==5.0
-##### pandas==1.4.4
-##### GalDynPsr
-##### galpy==1.8.2
-##### scipy==1.10.1
-##### matplotlib==3.6.3
-##### random
-##### corner==2.2.1
-##### openpyxl==3.1.2
-##### math
-##### SciencePlots
+## System Requirements
 
+### Hardware Requirements
+- A standard computer with sufficient RAM and CPU cores for parallel computing.
 
-# Setting up the development environment:
+### Software Requirements
+#### Supported Operating Systems
+- **Linux**: Tested on **Ubuntu 20.04**.
 
-## To set up Slurm for parallel parameters estimation：
-### 1. Install Slurm.
-### 2. Configure Python Environment: Set up your Python environment in "slurm.sh" files.
-#### For example: cd NSbirthMass/pe_models/ns_obs/2G/ folder; find the slurm.sh file; modify the last line command in the "slurm.sh" file, which is "python hyper.py," to use your specific Python environment, such as "/home/xxx/miniconda/envs/xxx/bin/python hyper.py".
-### 3. Generate Neutron Star mass data. 
-#### Use the NS mass generation code located in the "NSbirthMass/demos/" directory to obtain neutron star mass data under different accretion modes.
-### 4. Copy NS mass data in "NSbirthMass/demos/" to the parameters estimation folder, "NSbirthMass/pe_models".
+#### Python Dependencies
+- All dependencies are listed in the `requirements.txt` file.
 
-## To run parallel parameters estimation based on task management system using NS mass data obtained above:
-### cd /NSbirthMass/pe_models/xxx/yyy ; sbatch slurm.sh, or cd /NSbirthMass/pe_models/xxx; bash sbatch 
-#### where the "xxx" folder represents the accretion mode for NS mass data, such as analytical approach (obs), and "yyy" indicates the mass model, like Gaussian distribution(G).
+---
 
-### Note
-#### We employed the Slurm task management system. In this calculation, we used single-node parallel processing. When performing parallel calculations, ensure that the "logs/" directory is created before submitting the "slurm.sh" file. The "ntasks-per-node" specifies the number of threads per node for parallel computation. Please note that "npool" should match the "ntasks-per-node" value specified in the "slurm.sh" file. Before submitting a parallel task, make sure to switch the Python environment in "slurm.sh" file, the last line of command, which can be determined using the "which python" command.
+## Setting Up the Development Environment
 
-## To run notebooks
-### cd demos
-### run jupyter notebook, xxx.ipynb
+### To Set Up Slurm for Parallel Parameter Estimation:
+
+1. **Install Slurm**: Ensure that Slurm is installed on your system.
+2. **Configure Python Environment**:
+   - Navigate to `NSbirthMass/pe_models/ns_obs/2G/` and locate the `slurm.sh` file.
+   - Modify the last line of the file (e.g., `python hyper.py`) to point to your Python environment:
+     ```bash
+     /home/xxx/miniconda/envs/xxx/bin/python hyper.py
+     ```
+3. **Generate Neutron Star Mass Data**:
+   - Use the mass generation code(Main_obtain_ANA_xxx.ipynb) in the `NSbirthMass/demos/` directory to generate neutron star mass data under different accretion modes.
+4. **Copy Generated Data**:
+   - Move the generated neutron star mass data from `NSbirthMass/demos/` to the parameter estimation folder: `NSbirthMass/pe_models/`. There is already some data (like ana-, obs- and phe- NS mass data) in this folder.
+
+### To Run Parallel Parameter Estimation:
+
+1. Navigate to the desired folder:
+   ```bash
+   cd /NSbirthMass/pe_models/xxx/yyy
+   ```
+   - `xxx`: Accretion mode (e.g., analytical approach `ana_dns`).
+   - `yyy`: Mass model (e.g., Gaussian distribution `G`).
+
+2. Submit the job using Slurm:
+   ```bash
+   sbatch slurm.sh
+   ```
+   Alternatively, run the script directly:
+   ```bash
+   bash sbatch
+   ```
+
+**Note**:
+- Ensure the `logs/` directory in Mass model folder (/NSbirthMass/pe_models/xxx/yyy) exists before submitting the `slurm.sh` file.
+- Match `ntasks-per-node` in the `slurm.sh` file with the `npool` parameter, where npool is the cpu cores pool in cluster.
+- Update the Python environment path (/home/xxx/miniconda3/envs/xxx/bin/python) in `slurm.sh` using the `which python` command.
+
+### To Run Jupyter Notebooks:
+
+1. Navigate to the `demos` directory:
+   ```bash
+   cd demos
+   ```
+2. Launch the Jupyter Notebook:
+   ```bash
+   jupyter notebook xxx.ipynb
+   ```
+
+---
+
+## License
+This project is covered under the **Apache 2.0 License**.
+
+---
+
+## Citation Guide
+To cite this work, please refer to [DOI: 10.48550/arXiv.2412.05524](https://doi.org/10.48550/arXiv.2412.05524).
 
 # License
 This project is covered under the Apache 2.0 License.
