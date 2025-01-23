@@ -54,7 +54,7 @@ NSbirthMass is designed to provide a diverse range of neutron star mass distribu
    ```bash
    cd /NSbirthMass/pe_models/xxx/yyy
    ```
-   - `xxx`: Accretion mode (e.g., analytical approach `ana_dns`).
+   - `xxx`: Accretion model (e.g., analytical approach `ana_dns`).
    - `yyy`: Mass model (e.g., Gaussian distribution `G`).
 
 2. Submit the job using Slurm:
