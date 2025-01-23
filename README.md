@@ -8,7 +8,7 @@
 
 ## Overview
 
-NSbirthMass is designed to provide a diverse range of neutron star mass distribution models and efficient parameter estimation. It includes Gaussian series models and leverages the Nested Sampling method for parameter estimation. This toolkit is user-friendly, efficient, and compatible with the GNU/Linux operating system.
+NSbirthMass is designed to provide a diverse range of neutron star mass distribution models and efficient parameter estimation. It includes Gaussian series models and the Nested Sampling method for parameter estimation. This toolkit is user-friendly and efficient for the GNU/Linux operating system.
 
 ### Folder Contents
 - **`demos`**: Contains partial source data and Python code for generating main datasets and figures.
