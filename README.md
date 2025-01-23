@@ -44,7 +44,7 @@ NSbirthMass is designed to provide a diverse range of neutron star mass distribu
      /home/xxx/miniconda/envs/xxx/bin/python hyper.py
      ```
 3. **Generate Neutron Star Mass Data**:
-   - Use the mass generation code(Main_obtain_ANA_xxx.ipynb) in the `NSbirthMass/demos/` directory to generate neutron star mass data under different accretion modes.
+   - Use the mass generation code(Main_obtain_ANA_xxx.ipynb) in the `NSbirthMass/demos/` directory to generate neutron star mass data under different accretion models.
 4. **Copy Generated Data**:
    - Move the generated neutron star mass data from `NSbirthMass/demos/` to the parameter estimation folder: `NSbirthMass/pe_models/`. There is already some data (like ana-, obs- and phe- NS mass data) in this folder.
 
