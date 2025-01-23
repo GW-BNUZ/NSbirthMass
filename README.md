@@ -1,7 +1,7 @@
 # NSbirthMass
 
 **NSbirthMass** is a Python-based toolkit providing source data and tools for:
-1. Computing neutron star birth mass distributions under various accretion modes.
+1. Computing neutron star birth mass distributions using various accretion models.
 2. Performing rapid parameter estimation and model selection for neutron star mass models.
 
 ---
